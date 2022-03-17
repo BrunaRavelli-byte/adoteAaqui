@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredericka+the+Great&family=Skranji:wght@400;700&family=VT323&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Skranji', cursive;
+    font-family: 'VT323', monospace;
+    background-image: url("img/900_(33).jpg");
+    background-size: 100%;
+
+}
+main {
+    background: linear-gradient(#ffd8d8, #fff4cb, #daffe0, #dbf7ff, #f0d6ff);
+    background-size: 605px;
+}
+h1 {
+    background-color: #FF006E;
+    border-radius: 100px;
+    padding-bottom: 50px;
+    padding-top: 32px;
+    padding-left: 5px;
+    padding-right: 1px;
+    color: #FFBE0B;
+    box-shadow: 3px 5px #ff5d8f;
+    
+  }
+ form {
+     border: 1px solid #ccc;
+      float:left;
+       padding:12px;
+       margin-left: 424px;
+       margin-top: 50px;
+       font: 16px; 
+       
+ }
+ input {
+     padding: 4px;
+     width:350px ;
+     display: block;
+     margin: 20px;
+     
+    }
+  textarea {
+      width: 354px;
+      display: block;
+      
+  }
+  form.bt {
+      width: 150px;
+      cursor: pointer;
+ }
+ .m {
+    padding: 70px
+ }
+
+ h1::first-letter {
+     font-size: 50px;
+  
+ }
+ 
+ button.one {
+    background-color: #01295F; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 3px 5px #55dde0;
+ }
+
+ button.two {
+    background-color: #BC96E6; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 3px 5px #ffb9ff;
+ }
+ button.three {
+    background-color: #A21686; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: 3px 5px #da4482;
+ }
+ button:hover {
+     font-size: 20px;
+     color: #FF006E;
+     box-shadow: 3px 5px #da4482;
+     transition: all;
+ }
+ .ff {
+    border: 1px solid #ccc;
+    float:left;
+     padding:12px;
+     margin-left: 424px;
+     margin-top: 50px;
+     font: 16px;
+ }
+
+ a {
+     color: white;
+     
+ }
+ .pet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #1b1b1a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    
+ }
+ footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e5a4cb;
+    color: #28074a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+ }
+ @media (max-width: 426px){
+    body {
+        display: flex;
+        flex-direction: column;
+     font-size: smaller;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+        background: linear-gradient(#f72585, #b5179e, #7209b7, #560bad);
+        background-size: 100%;
+        
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+    }
+}
